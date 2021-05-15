@@ -1,0 +1,111 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 60px;
+}
+nav {
+    max-width: 50%;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+nav ul li {
+    padding: 7px;
+    font-size: 1.2em;
+}
+#search {
+    width: 30px;
+}
+#basket {
+    width: 40px;
+    height: 2.3em;
+}
+#user-account {
+    width: 30px;
+}
+
+div hamburger_menu {
+   display: flex; 
+   position:absolute; 
+}
+
+.hamburger_menu {
+    display: flex;
+    flex-direction: row;
+    height: 2em;
+    width: 150px;
+    justify-content: space-evenly;
+    }
+
+a {
+    text-decoration:none;
+    color:rgba(1, 7, 1, 0.829)
+}
+ hr {
+     margin-bottom: 3%;
+     width: 90%;
+ }
+
+a:hover {
+text-decoration: underline;    
+text-underline-offset: 3px;
+}
+
+section {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 6%;
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate (-50%, -50%);
+    font-size: 60px;
+    
+}
+
+.personal {
+    width: 600px;
+    color: rgb(31, 63, 31)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 5%;;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.plants {
+    display: flex;
+    justify-content: center;
+}
+
+.plant2 {
+    margin-right: 35px;
+}

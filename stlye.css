@@ -68,14 +68,19 @@ section {
     text-align: center;
     color: white;
     margin-bottom: 6%;
+    /* display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: white; */
 }
 .title {
     position: absolute;
     top: 50%;
-    left: 40%;
-    transform: translate (-50%, -50%);
+    /* left: 40%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 60px;
-    
 }
 
 .personal {
